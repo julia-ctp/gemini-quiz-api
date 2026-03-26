@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { QUIZ_CATEGORIES, QUIZ_LEVELS } from "../types/constants";
+import { QUIZ_CATEGORIES, QUIZ_LEVELS } from "../types/constants.js";
 
 export const QuizSchema = z.object({
   questions: z.array(
