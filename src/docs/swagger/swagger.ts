@@ -11,7 +11,13 @@ export const swaggerConfig = {
     description:
       "API de geração e correção de quizes técnicos utilizando Google Gemini AI",
   },
-  servers: [{ url: "http://localhost:3000", description: "Servidor Local" }],
+  servers: [
+    { url: "http://localhost:3000", description: "Servidor Local" },
+    {
+      url: "https://gemini-quiz-api-fywi.onrender.com",
+      description: "Servidor de Produção",
+    },
+  ],
   paths: {
     ...quizPaths,
   },
