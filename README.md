@@ -21,7 +21,7 @@ Uma API para geração e correção automatizada de quizzes voltados para desenv
 - Node.js (v18 ou superior)
 - Chave de API do Gemini
 
-  [(como gerar chave)](#gerar-da-api-key-do-gemini)
+  [(como gerar chave)](#gerar-api-key-do-gemini)
 
 ### 2. Instalação
 
@@ -60,9 +60,10 @@ npm run dev
 - Copie a chave gerada e guarde-a com segurança.
 
 ## Documentação da API
+Para testar os endpoints disponíveis, acesse:
 
-Após iniciar o servidor, acesse:
+- https://gemini-quiz-api-fywi.onrender.com/docs/ 
 
-http://localhost:3000/docs
+Ou após iniciar o servidor localmente: 
 
-A interface Swagger permite testar todos os endpoints diretamente pelo navegador.
+- http://localhost:3000/docs 
